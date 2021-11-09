@@ -1,13 +1,13 @@
 
 # Career Match
 
-##Overview 
+## Overview 
 (taken from [here](https://courses.ics.hawaii.edu/ics314f21/morea/final-project/reading-project-company-connector.html) as a starting point)  
 _The problem_: Many UH computer science and engineering students want to learn about internship and job opportunities, but currently they must wait until a company decides to visit the campus or send out some sort of announcement. There is no efficient way for students to understand the “landscape” of internship and job opportunities that might be available in the future, so they can prepare for them now.  
 
 _The solution_: The Company Connector web application provides a new way for local and non-local companies who want to recruit students from UH to make their (potential) opportunities known to students. At the same time, students can create profiles on the site with their interests. The site can match students to employers and vice-versa.  
 
-##Approach
+## Approach
 Instead of sending out announcements each year, a company can create a page in the site that lists:  
 
 - A brief overview of the company.
@@ -32,14 +32,14 @@ Some mockup pages include:
 - Company profile page
 - Browse companies and users by skill, geographic preference, etc.
 
-##Use case ideas
+## Use case ideas
 Whether or not the following bullet points list all pages or not, the completed use case should show an end-to-end scenario of using the system.
 
 - New user goes to landing page, logs in, gets home page, sets up profile. (How do they learn how system works?)
 - Admin goes to landing page, logs in, gets home page, edits site.
 - User goes to landing page, logs in, finds companies with compatible interests, contacts them.
 
-##Beyond the basics
+## Beyond the basics
 After implementing the basic functionality, here are ideas for more advanced features:
 
 - Notifications via email and/or SMS.
