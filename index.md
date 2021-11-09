@@ -41,3 +41,6 @@ Whether or not the following bullet points list all pages or not, the completed 
 After implementing the basic functionality, here are ideas for more advanced features:
 
 - Notifications via email and/or SMS.
+
+## Team
+Career Match was designed and implemented by Cathy Kim, Jay Ramos, Gerald Lee, Stephanie Aelmore, and Ian Eshelman
