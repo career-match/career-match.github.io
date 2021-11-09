@@ -32,6 +32,25 @@ Some mockup pages include:
 ### Landing page
 The landing page is the first page presented to the user. Helps with vistor to understand the features of the site.
 
+### Student home page
+The student home page is when you logged in as a student.
+
+### Company home page
+The company home page is when you logged in as a recruiter. 
+
+### Admin home page
+The admin home page is when you looed in as an admin.
+
+### Student profile page
+The student profile page is page presented to the user with list of the profiles of students.
+
+### Company profile page
+The company profile page e is a page presented to the user with a list of the profiles of the company with descriptions.
+
+### Browse companies and users by skill, geographic preference
+The page where users can search the companies by skills and geographic preference. 
+
+
 ## Use case ideas
 Whether or not the following bullet points list all pages or not, the completed use case should show an end-to-end scenario of using the system.
 
@@ -43,14 +62,6 @@ Whether or not the following bullet points list all pages or not, the completed 
 After implementing the basic functionality, here are ideas for more advanced features:
 
 - Notifications via email and/or SMS.
-
-## Development History
-
-### Final Project: Milestone 1
-
-### Final Project: Milestone 2
-
-### Final Project Milestone 3
 
 ## Team
 Career Match was designed and implemented by Cathy Kim, Jay Ramos, Gerald Lee, Stephanie Aelmore, and Ian Eshelman
