@@ -34,13 +34,13 @@ Some mockup pages include:
 The landing page is the first page presented to the user. Helps with vistor to understand the features of the site.
 
 ### Student home page
-The student home page is when you logged in as a student.
+The student home page is the page presented to the user who logged in as a student.
 
 ### Company home page
-The company home page is when you logged in as a recruiter. 
+The company home page is the page presented to the user who logged in as a recruiter. 
 
 ### Admin home page
-The admin home page is when you logged in as an admin.
+The admin home page is the page for the admin.
 
 ### Student profile page
 The student profile page is a page presented to the user with list of the profiles of students.
