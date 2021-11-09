@@ -1,3 +1,5 @@
+The Github Organization for this project can be found [here](https://github.com/career-match/)
+
 ## Overview 
 (taken from [here](https://courses.ics.hawaii.edu/ics314f21/morea/final-project/reading-project-company-connector.html) as a starting point)  
 _The problem_: Many UH computer science and engineering students want to learn about internship and job opportunities, but currently they must wait until a company decides to visit the campus or send out some sort of announcement. There is no efficient way for students to understand the “landscape” of internship and job opportunities that might be available in the future, so they can prepare for them now.  
