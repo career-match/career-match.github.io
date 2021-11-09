@@ -1,6 +1,3 @@
-
-# Career Match
-
 ## Overview 
 (taken from [here](https://courses.ics.hawaii.edu/ics314f21/morea/final-project/reading-project-company-connector.html) as a starting point)  
 _The problem_: Many UH computer science and engineering students want to learn about internship and job opportunities, but currently they must wait until a company decides to visit the campus or send out some sort of announcement. There is no efficient way for students to understand the “landscape” of internship and job opportunities that might be available in the future, so they can prepare for them now.  
@@ -29,6 +26,11 @@ Some mockup pages include:
 - Student profile page.
 - Company profile page
 - Browse companies and users by skill, geographic preference, etc.
+
+## User Guide
+
+### Landing page
+The landing page is the first page presented to the user. Helps with vistor to understand the features of the site.
 
 ## Use case ideas
 Whether or not the following bullet points list all pages or not, the completed use case should show an end-to-end scenario of using the system.
