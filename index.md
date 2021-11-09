@@ -66,8 +66,8 @@ After implementing the basic functionality, here are ideas for more advanced fea
 
 ## Team
 Career Match was designed and implemented by:
--Cathy Kim 
--Jay Ramos 
--Gerald Lee
--Stephanie Aelmore
--Ian Eshelman
+- Cathy Kim 
+- Jay Ramos 
+- Gerald Lee
+- Stephanie Aelmore
+- Ian Eshelman
