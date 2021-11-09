@@ -44,5 +44,13 @@ After implementing the basic functionality, here are ideas for more advanced fea
 
 - Notifications via email and/or SMS.
 
+## Development History
+
+### Final Project: Milestone 1
+
+### Final Project: Milestone 2
+
+### Final Project Milestone 3
+
 ## Team
 Career Match was designed and implemented by Cathy Kim, Jay Ramos, Gerald Lee, Stephanie Aelmore, and Ian Eshelman
