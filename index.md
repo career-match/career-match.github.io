@@ -33,9 +33,6 @@ Some mockup pages include:
 ### Landing page
 The landing page is the first page presented to the user. Helps with vistor to understand the features of the site.
 
-<img src="doc/landingMockup.png">
-
-
 ### Student home page
 The student home page is the page presented to the user who logged in as a student.
 
