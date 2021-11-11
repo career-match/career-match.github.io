@@ -1,10 +1,8 @@
 The Github Organization for this project can be found [here](https://github.com/career-match/)
 
 ## Overview 
-(taken from [here](https://courses.ics.hawaii.edu/ics314f21/morea/final-project/reading-project-company-connector.html) as a starting point)  
-_The problem_: Many UH computer science and engineering students want to learn about internship and job opportunities, but currently they must wait until a company decides to visit the campus or send out some sort of announcement. There is no efficient way for students to understand the “landscape” of internship and job opportunities that might be available in the future, so they can prepare for them now.  
 
-_The solution_: The Company Connector web application provides a new way for local and non-local companies who want to recruit students from UH to make their (potential) opportunities known to students. At the same time, students can create profiles on the site with their interests. The site can match students to employers and vice-versa.  
+Career Match provides a new way for connecting companies with a matching system. Students can select their skills to match with companies or browse companies with zip-code to find out geographic preference. The recruiter also can explore students' profiles with the interest and skills that the company is looking for. The site can match students to employers and vice-versa.
 
 ## Approach
 Instead of sending out announcements each year, a company can create a page in the site that lists:  
@@ -34,6 +32,8 @@ Some mockup pages include:
 
 ### Landing page
 The landing page is the first page presented to the user. Helps with vistor to understand the features of the site.
+
+
 
 ### Student home page
 The student home page is the page presented to the user who logged in as a student.
@@ -68,8 +68,8 @@ After implementing the basic functionality, here are ideas for more advanced fea
 
 ## Team
 Career Match was designed and implemented by:
-- Cathy Kim
-- Gerald Lee
-- Ian Eshelman
-- Jay Ramos
-- Stephanie Aelmore
+- [Cathy Kim](https://github.com/cathy-kim95)
+- [Gerald Lee](https://github.com/glee25)
+- [Ian Eshelman](https://github.com/IanEshelman)
+- [Jay Ramos](https://github.com/ramosJay)
+- [Stephanie Aelmore](https://github.com/believeinlain)
