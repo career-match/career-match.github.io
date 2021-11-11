@@ -40,8 +40,12 @@ The landing page is the first page presented to the user. Helps with vistor to u
 ### Student home page
 The student home page is the page presented to the user who logged in as a student.
 
+<img src="doc/studentpage.png">
+
 ### Company home page
-The company home page is the page presented to the user who logged in as a recruiter. 
+The company home page is the page presented to the user who logged in as a recruiter.
+
+<img src="doc/companyhomepage.png">
 
 ### Admin home page
 The admin home page is the page for the admin.
@@ -53,7 +57,9 @@ The student profile page is a page presented to the user with list of the profil
 The company profile page is a page presented to the user with a list of the profiles of the company with descriptions.
 
 ### Browse companies and users by skill, geographic preference
-The page where users can search the companies by skills and geographic preference. 
+The page where users can search the companies by skills and geographic preference.
+
+<img src="doc/searchpage.png">
 
 
 ## Use case ideas
