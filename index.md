@@ -1,5 +1,7 @@
 The Github Organization for this project can be found [here](https://github.com/career-match/)
 
+The latest version of the app is hosted [here](http://connectiveunconscious.com:3000)
+
 ## Overview 
 
 Career Match provides a new way for connecting companies with a matching system. Students can select their skills to match with companies or browse companies with zip-code to find out geographic preference. The recruiter also can explore students’ profiles with the interest and skills that the company is looking for. The site can match students to employers and vice-versa.
