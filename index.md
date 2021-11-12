@@ -2,7 +2,13 @@ The Github Organization for this project can be found [here](https://github.com/
 
 ## Overview 
 
-Career Match provides a new way for connecting companies with a matching system. Students can select their skills to match with companies or browse companies with zip-code to find out geographic preference. The recruiter also can explore students' profiles with the interest and skills that the company is looking for. The site can match students to employers and vice-versa.
+Career Match provides a new way for connecting companies with a matching system. Students can select their skills to match with companies or browse companies with zip-code to find out geographic preference. The recruiter also can explore students’ profiles with the interest and skills that the company is looking for. The site can match students to employers and vice-versa.
+
+Students who visit the site can create a profile with their interests (skills), preferred geographic location by zip-code, and link to their professional portfolio page. Admins can monitor the site for inappropriate content, and create new categories for the students and recruiters.
+New user goes to landing page, logs in, gets home page, sets up profile.
+Admin goes to landing page, logs in, gets home page, edits site.
+User goes to landing page, logs in, finds companies with compatible interests, contacts them.
+Recruiter goes to landing page, logs in, add company to Career Match, explore student’s profile.
 
 ## Approach
 Instead of sending out announcements each year, a company can create a page in the site that lists:  
@@ -66,6 +72,7 @@ Whether or not the following bullet points list all pages or not, the completed 
 - New user goes to landing page, logs in, gets home page, sets up profile. (How do they learn how system works?)
 - Admin goes to landing page, logs in, gets home page, edits site.
 - User goes to landing page, logs in, finds companies with compatible interests, contacts them.
+- Recruiter goes to landing page, logs in, add company to Career Match, explore student’s profile.
 
 ## Beyond the basics
 After implementing the basic functionality, here are ideas for more advanced features:
