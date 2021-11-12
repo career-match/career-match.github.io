@@ -2,7 +2,7 @@ The Github Organization for this project can be found [here](https://github.com/
 
 ## Deployment
 
-The latest version of the app is hosted [here](http://159.65.64.25)
+The latest version of the app is hosted [here](https://career-match.connectiveunconscious.com)
 
 ## Milestones
 
