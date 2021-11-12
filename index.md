@@ -8,7 +8,7 @@ The latest version of the app is hosted [here](http://connectiveunconscious.com:
 
 [Milestone 1](https://github.com/career-match/career-match/projects/1)
 
-Milestone 2
+[Milestone 2](https://github.com/career-match/career-match/projects/2)
 
 ## Overview 
 
