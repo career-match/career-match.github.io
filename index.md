@@ -69,8 +69,12 @@ The admin home page is the page for the admin.
 ### Student profile page
 The student profile page is a page presented to the user with list of the profiles of students.
 
+<img src="doc/studentprofilepage.png">
+
 ### Company profile page
 The company profile page is a page presented to the user with a list of the profiles of the company with descriptions.
+
+<img src="doc/companyprofilepage.png">
 
 ### Browse companies and users by skill, geographic preference
 The page where users can search the companies by skills and geographic preference.
