@@ -45,6 +45,8 @@ The company home page is the page presented to the user who logged in as a recru
 ### Admin home page
 The admin home page is the page for the admin.
 
+<img src="doc/CareerMatchAdminLanding.png">
+
 ### Student profile page
 The student profile page is a page presented to the user with list of the profiles of students.
 
