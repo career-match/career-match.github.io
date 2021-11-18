@@ -54,9 +54,8 @@ The page where users can search the companies by skills and geographic preferenc
 
 ## Developer Guide
 
-To build Career Match locally, first clone the `main` branch to your system.  
-Navigate to the `app/` folder:  
-```cd career-match/app```
+To build Career Match locally, first clone the career-match repository to your system:  
+```git clone https://github.com/career-match/career-match.git```
 
 Career Match uses [Meteor](https://www.meteor.com) which can be installed using npm with the command:  
 ```npm install -g meteor```
@@ -67,7 +66,9 @@ Install the dependencies using (while in the `career-match/app` folder):
 Build the app locally with:  
 ```meteor npm run start```
 
-The app is designed to be deployed using [Meteor Up](http://meteor-up.com)
+To use the locally built app, connect using a web browser to `http://localhost:3000`.
+
+The app is designed to be deployed using [Meteor Up](http://meteor-up.com), which will have to be configured for the particular webserver you wish to host it on.
 
 ## Development History
 
