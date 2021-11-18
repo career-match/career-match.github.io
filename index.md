@@ -69,16 +69,25 @@ We have not yet received feedback from the community regarding our app.
 ## Developer Guide
 
 To build Career Match locally, first clone the career-match repository to your system:  
-```git clone https://github.com/career-match/career-match.git```
+```bash
+$ git clone https://github.com/career-match/career-match.git
+```
 
 Career Match uses [Meteor](https://www.meteor.com) which can be installed using npm with the command:  
-```npm install -g meteor```
+```bash
+$ npm install -g meteor
+```
 
-Install the dependencies using (while in the `career-match/app` folder):  
-```meteor npm install```
+Install the dependencies using:  
+```bash
+$ cd career-match/app
+$ meteor npm install
+```
 
 Build the app locally with:  
-```meteor npm run start```
+```bash
+$ meteor npm run start
+```
 
 To use the locally built app, connect using a web browser to `http://localhost:3000`.
 
@@ -89,12 +98,13 @@ The app is designed to be deployed using [Meteor Up](http://meteor-up.com), whic
 The development process for Career Match conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
 
 Development consists of a sequence of Milestones.
--Each Milestone is specified as a set of tasks.
--Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
--Tasks should typically consist of work that can be completed in 2-4 days.
--The work for each task is accomplished with a git branch named “issue-XX”, where XX is replaced by the issue number.
--When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
--The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
+- Each Milestone is specified as a set of tasks.
+- Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
+- Tasks should typically consist of work that can be completed in 2-4 days.
+- The work for each task is accomplished with a git branch named “issue-XX”, where XX is replaced by the issue number.
+- When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
+- The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
+
 The following sections document the development history of Career Match.
 
 ### Milestone 1: Mockup development
