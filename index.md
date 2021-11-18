@@ -1,15 +1,3 @@
-The Github Organization for this project can be found [here](https://github.com/career-match/)
-
-## Deployment
-
-The latest version of the app is hosted [here](https://career-match.connectiveunconscious.com)
-
-## Milestones
-
-[Milestone 1](https://github.com/career-match/career-match/projects/1)
-
-[Milestone 2](https://github.com/career-match/career-match/projects/2)
-
 ## Overview 
 
 Career Match provides a new way for connecting companies with a matching system. Students can select their skills to match with companies or browse companies with zip-code to find out geographic preference. The recruiter also can explore students’ profiles with the interest and skills that the company is looking for. The site can match students to employers and vice-versa.
@@ -20,38 +8,19 @@ Admin goes to landing page, logs in, gets home page, edits site.
 User goes to landing page, logs in, finds companies with compatible interests, contacts them.
 Recruiter goes to landing page, logs in, add company to Career Match, explore student’s profile.
 
-## Approach
-Instead of sending out announcements each year, a company can create a page in the site that lists:  
+The Github Organization for this project can be found [here](https://github.com/career-match/)
 
-- A brief overview of the company.
-- Geographic location of the company.
-- A list of positions that they commonly recruit for from new UH graduates. Each position has a brief description, a set of skills, whether it’s an internship, permanent position, or both, how many people they would like to hire, and salary range.
-- Links to pages for additional information.
-- Contact email(s) for followup.
+## Deployment
 
-Students who visit the site can create a profile with their interests (skills), preferred geographic location, and link to their professional portfolio page.  
-
-Admins can monitor the site for inappropriate content, and create new categories of musical tastes, capabilities, and goals.  
-
-Some mockup pages include:
-
-- Landing page
-- Student home page.
-- Company home page
-- Admin home page
-- Student profile page.
-- Company profile page
-- Browse companies and users by skill, geographic preference, etc.
+The latest version of the app is hosted [here](https://career-match.connectiveunconscious.com)
 
 ## User Guide
-
 
 ### Landing page
 The landing page is the first page presented to the user. Helps with vistor to understand the features of the site.
 
 <img src="doc/landingMockup.png">
 <img src="doc/landingMockup3.PNG">
-
 
 ### Student home page
 The student home page is the page presented to the user who logged in as a student.
@@ -81,21 +50,45 @@ The page where users can search the companies by skills and geographic preferenc
 
 <img src="doc/searchpage.png">
 
+<!-- ## Community Feedback -->
 
-## Use case ideas
-Whether or not the following bullet points list all pages or not, the completed use case should show an end-to-end scenario of using the system.
+## Developer Guide
 
-- New user goes to landing page, logs in, gets home page, sets up profile. (How do they learn how system works?)
-- Admin goes to landing page, logs in, gets home page, edits site.
-- User goes to landing page, logs in, finds companies with compatible interests, contacts them.
-- Recruiter goes to landing page, logs in, add company to Career Match, explore student’s profile.
+To build Career Match locally, first clone the `main` branch to your system.  
+Navigate to the `app/` folder:  
+```cd career-match/app```
 
-## Beyond the basics
-After implementing the basic functionality, here are ideas for more advanced features:
+Career Match uses [Meteor](https://www.meteor.com) which can be installed using npm with the command:  
+```npm install -g meteor```
 
-- Notifications via email and/or SMS.
+Install the dependencies using (while in the `career-match/app` folder):  
+```meteor npm install```
 
-## Team
+Build the app locally with:  
+```meteor npm run start```
+
+The app is designed to be deployed using [Meteor Up](http://meteor-up.com)
+
+## Development History
+
+[Milestone 1](https://github.com/career-match/career-match/projects/1) (complete)
+
+[Milestone 2](https://github.com/career-match/career-match/projects/2)
+
+## Approach
+Instead of sending out announcements each year, a company can create a page in the site that lists:  
+
+- A brief overview of the company.
+- Geographic location of the company.
+- A list of positions that they commonly recruit for from new UH graduates. Each position has a brief description, a set of skills, whether it’s an internship, permanent position, or both, how many people they would like to hire, and salary range.
+- Links to pages for additional information.
+- Contact email(s) for followup.
+
+Students who visit the site can create a profile with their interests (skills), preferred geographic location, and link to their professional portfolio page.  
+
+Admins can monitor the site for inappropriate content, and create new categories of musical tastes, capabilities, and goals.  
+
+## Contact Us
 Career Match was designed and implemented by:
 - [Cathy Kim](https://github.com/cathy-kim95)
 - [Gerald Lee](https://github.com/glee25)
