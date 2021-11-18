@@ -1,3 +1,13 @@
+## Table of contents
+
+- [Overview](#overview)
+- [Deployment](#deployment)
+- [User Guide](#user-guide)
+- [Community Feedback](#community-feedback)
+- [Developer Guide](#developer-guide)
+- [Development History](#development-history)
+- [Contact Us](#contact-us)
+
 ## Overview 
 
 Career Match provides a new way for connecting companies with a matching system. Students can select their skills to match with companies or browse companies with zip-code to find out geographic preference. The recruiter also can explore students’ profiles with the interest and skills that the company is looking for. The site can match students to employers and vice-versa.
@@ -50,7 +60,9 @@ The page where users can search the companies by skills and geographic preferenc
 
 <img src="doc/searchpage.png">
 
-<!-- ## Community Feedback -->
+## Community Feedback
+
+We have not yet received feedback from the community regarding our app.
 
 ## Developer Guide
 
@@ -72,9 +84,28 @@ The app is designed to be deployed using [Meteor Up](http://meteor-up.com), whic
 
 ## Development History
 
-[Milestone 1](https://github.com/career-match/career-match/projects/1) (complete)
+The development process for Career Match conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
 
-[Milestone 2](https://github.com/career-match/career-match/projects/2)
+Development consists of a sequence of Milestones.
+-Each Milestone is specified as a set of tasks.
+-Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
+-Tasks should typically consist of work that can be completed in 2-4 days.
+-The work for each task is accomplished with a git branch named “issue-XX”, where XX is replaced by the issue number.
+-When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
+-The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
+The following sections document the development history of Career Match.
+
+### Milestone 1: Mockup development
+The main goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.  
+
+Milestone 1 was managed using [GitHub Project Board M1](https://github.com/career-match/career-match/projects/1)
+
+### Milestone 2: Data model development
+The main goal of Milestone 2 is to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the Career Match application.  
+
+Milestone 2 is managed using [GitHub Project Board M2](https://github.com/career-match/career-match/projects/2)  
+
+Milestone 2 is currently in progress.
 
 ## Approach
 Instead of sending out announcements each year, a company can create a page in the site that lists:  
