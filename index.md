@@ -6,6 +6,7 @@
 - [Community Feedback](#community-feedback)
 - [Developer Guide](#developer-guide)
 - [Development History](#development-history)
+- [Continuous Integration](#continuous-integration)
 - [Contact Us](#contact-us)
 
 ## Overview 
@@ -118,6 +119,13 @@ The main goal of Milestone 2 is to implement the data model: the underlying set 
 Milestone 2 is managed using [GitHub Project Board M2](https://github.com/career-match/career-match/projects/2)  
 
 Milestone 2 is currently in progress.
+
+## Continuous Integration
+[![ci-career-match](https://github.com/career-match/career-match/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/career-match/career-match/actions/workflows/ci.yml)
+
+Career Match uses GitHub Actions to automatically run ESLint and TestCafe each time a commit is made to the default branch. You can see the results of all recent “workflows” at https://github.com/career-match/career-match/actions.
+
+The workflow definition file is located at `.github/workflows/ci.yml`.
 
 ## Approach
 Instead of sending out announcements each year, a company can create a page in the site that lists:  
