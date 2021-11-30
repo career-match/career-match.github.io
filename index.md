@@ -123,6 +123,8 @@ Milestone 2 is managed using [GitHub Project Board M2](https://github.com/career
 
 Milestone 3 is currently in progress.
 
+Milestone 3 is managed using [GitHub Project Board M3](https://github.com/career-match/career-match/projects/3) 
+
 ## Continuous Integration
 [![ci-career-match](https://github.com/career-match/career-match/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/career-match/career-match/actions/workflows/ci.yml)
 
