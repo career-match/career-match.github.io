@@ -118,7 +118,10 @@ The main goal of Milestone 2 is to implement the data model: the underlying set 
 
 Milestone 2 is managed using [GitHub Project Board M2](https://github.com/career-match/career-match/projects/2)  
 
-Milestone 2 is currently in progress.
+
+### Milestone 3: Final development
+
+Milestone 3 is currently in progress.
 
 ## Continuous Integration
 [![ci-career-match](https://github.com/career-match/career-match/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/career-match/career-match/actions/workflows/ci.yml)
