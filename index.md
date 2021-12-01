@@ -49,20 +49,21 @@ The admin home page is the page for the admin.
 <img src="doc/CareerMatchAdminLanding.png">
 
 ### Student profile page
-The student profile page is a page presented to the user with list of the profiles of students.
+The student profile page is a page presented to the student with their profile. Student can edit their profile by click "edit".
 
 <img src="doc/studentprofile.png">
 
 ### Company profile page
-The company profile page is a page presented to the user with a list of the profiles of the company with descriptions.
+The company profile page is a page presented to the recruiter with their description of company. Recruiter can edit their profile by click "edit".
 
 <img src="doc/companyprofile.png">
 
-### Browse companies and users by skill, geographic preference
-The page where users can search the companies by skills and geographic preference.
+### Browse companies and students by skill, geographic preference
+The page where users can search the companies/students by skills and geographic preference.
 
-* will add the search field to browse it
+* wokring on the search field to browse it
 <img src="doc/findcompany.png">
+<img src="doc/findstudent.png">
 
 
 ## Community Feedback
