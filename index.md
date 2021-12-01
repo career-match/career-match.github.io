@@ -36,12 +36,12 @@ The landing page is the first page presented to the user. Helps with vistor to u
 ### Student home page
 The student home page is the page presented to the user who logged in as a student.
 
-<img src="doc/studentpage.png">
+<img src="doc/studenthome.png">
 
 ### Company home page
 The company home page is the page presented to the user who logged in as a recruiter.
 
-<img src="doc/companyhomepage.png">
+<img src="doc/companylanding.png">
 
 ### Admin home page
 The admin home page is the page for the admin.
@@ -51,17 +51,19 @@ The admin home page is the page for the admin.
 ### Student profile page
 The student profile page is a page presented to the user with list of the profiles of students.
 
-<img src="doc/studentprofilepage.png">
+<img src="doc/studentprofile.png">
 
 ### Company profile page
 The company profile page is a page presented to the user with a list of the profiles of the company with descriptions.
 
-<img src="doc/companyprofilepage.png">
+<img src="doc/companyprofile.png">
 
 ### Browse companies and users by skill, geographic preference
 The page where users can search the companies by skills and geographic preference.
 
-<img src="doc/searchpage.png">
+* will add the search field to browse it
+<img src="doc/findcompany.png">
+
 
 ## Community Feedback
 
