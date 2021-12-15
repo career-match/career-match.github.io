@@ -1,23 +1,24 @@
 ## Table of contents
 
+- [Table of contents](#table-of-contents)
 - [Overview](#overview)
 - [Deployment](#deployment)
 - [User Guide](#user-guide)
+  - [Student experience](#student-experience)
+  - [Recruiter experience](#recruiter-experience)
+  - [Admin experience](#admin-experience)
 - [Community Feedback](#community-feedback)
 - [Developer Guide](#developer-guide)
 - [Development History](#development-history)
+  - [Milestone 1: Mockup development](#milestone-1-mockup-development)
+  - [Milestone 2: Data model development](#milestone-2-data-model-development)
+  - [Milestone 3: Final development](#milestone-3-final-development)
 - [Continuous Integration](#continuous-integration)
 - [Contact Us](#contact-us)
 
 ## Overview 
 
-Career Match provides a new way for connecting companies with a matching system. Students can select their skills to match with companies or browse companies with zip-code to find out geographic preference. The recruiter also can explore students’ profiles with the interest and skills that the company is looking for. The site can match students to employers and vice-versa.
-
-Students who visit the site can create a profile with their interests (skills), preferred geographic location by zip-code, and link to their professional portfolio page. Admins can monitor the site for inappropriate content, and create new categories for the students and recruiters.
-New user goes to landing page, logs in, gets home page, sets up profile.
-Admin goes to landing page, logs in, gets home page, edits site.
-User goes to landing page, logs in, finds companies with compatible interests, contacts them.
-Recruiter goes to landing page, logs in, add company to Career Match, explore student’s profile.
+Career Match provides a new way for connecting companies with a matching system. Students can select their skills to match with companies or browse companies by zip-code to fit their geographic preference. Recruiters can also use the app to explore student profiles with interests and skills that the company is seeking. Students who visit the site can create a profile with their interests (skills), preferred geographic location by zip-code, and contact info. Admins can view and edit all student and company profiles. In this way the site can match students to employers and vice-versa.
 
 The Github Organization for this project can be found [here](https://github.com/career-match/)
 
@@ -27,52 +28,55 @@ The latest version of the app is hosted [here](https://career-match.connectiveun
 
 ## User Guide
 
-### Landing page
-The landing page is the first page presented to the user. Helps with vistor to understand the features of the site.
+The landing page is the first page presented to the user. If the user is not logged in, it presents the option to do so.
 
-<img src="doc/landingMockup.png">
-<img src="doc/landingMockup3.PNG">
+![](doc/screenshots/landing.png)
 
-### Student home page
-The student home page is the page presented to the user who logged in as a student. New student can add their profile by click "Create Student Profile" or edit their profile by click "Edit Profile".
+If the user does not yet have an account, they may register for a new one, where they can select from between the roles of Student or Receuiter.
 
-<img src="doc/studentlanding.png">
+![](doc/screenshots/signup.png)
 
-### Company home page
-The company home page is the page presented to the user who logged in as a recruiter. New company account can add their profile by clock "Create Company Profile" or edit their profile by click "Edit Company".
+### Student experience
 
-<img src="doc/companylanding.png">
+If the user logs in as a student or creates a student account, they are presented with the student home page.
 
-### Admin home page
-The admin home page is the page for the admin. Admin can edit student/company profile and delete student/company profile.
+![](doc/screenshots/student-home.png)
 
-<img src="doc/adminlanding.png">
+From this page they may view their student profile or find companies that fit specified criteria. The My Student Profile option allows the user to view their profile as it appears to others.
 
-### Admin edit/delete profiles
-Admin can edit and delete student/company profiles. The "edit" button only shows to admin, and admin can edit the profiles from the finding pages.
+![](doc/screenshots/censored-view-student-profile.jpg)
 
-<img src="doc/adminfind.png">
-<img src="doc/adminedit.png">
+From here, they can click the Edit Your Student Profile button to add or edit their displayed profile information.
 
+![](doc/screenshots/censored-edit-student-profile.jpg)
 
-### Student profile page
-The student profile page is a page presented to the student with their profile. Student can edit their profile by click "Edit Your Student Profile".
+On the Find Companies page, students can browse companies with profiles on the app, and select those that are looking for certain skills or are hiring in specified locations.
 
-<img src="doc/studentprofile.png">
+![](doc/screenshots/find-companies.png)
 
-### Company profile page
-The company profile page is a page presented to the recruiter with their description of company. Recruiter can edit their profile by click "Edit Your Company Profile".
+### Recruiter experience
 
-<img src="doc/companyprofile.png">
+If the user logs in as a recruiter or creates a recruiter account, they are presented with the company home page.
 
-### Browse companies and students by interests(skills)
-The page where users can search the companies/students by interests(skills).
+![](doc/screenshots/company-home.png)
 
-<img src="doc/findcompany.png">
-<img src="doc/findcompanysearch.png">
-<img src="doc/findstudent.png">
-<img src="doc/findstudentsearch.png">
+From this page they may view their company profile or find students that fit specified criteria. The My Company Profile option allows the user to view their profile as it appears to others.
 
+![](doc/screenshots/view-company-profile.png)
+
+From here, they can click the Edit Your Company Profile button to add or edit their displayed profile information.
+
+![](doc/screenshots/edit-company-profile.png)
+
+On the Find Students page, recruiters can browse students with profiles on the app, and select those that are promising certain skills or are looking for work in specified locations.
+
+![](doc/screenshots/censored-find-students.jpg)
+
+### Admin experience
+
+If the user logs in as admin, they can view and edit all student and company profiles, via the Find Companies and Find Students pages.
+
+![](doc/screenshots/admin.png)
 
 ## Community Feedback
 
@@ -131,8 +135,7 @@ Milestone 2 is managed using [GitHub Project Board M2](https://github.com/career
 
 
 ### Milestone 3: Final development
-
-Milestone 3 is currently in progress.
+The main goal of Milestone 3 is to add the remaining functionality to obtain a usable app, and finish implementing tests and updating documentation.
 
 Milestone 3 is managed using [GitHub Project Board M3](https://github.com/career-match/career-match/projects/3) 
 
@@ -142,19 +145,6 @@ Milestone 3 is managed using [GitHub Project Board M3](https://github.com/career
 Career Match uses GitHub Actions to automatically run ESLint and TestCafe each time a commit is made to the default branch. You can see the results of all recent “workflows” at [https://github.com/career-match/career-match/actions](https://github.com/career-match/career-match/actions).
 
 The workflow definition file is located at `.github/workflows/ci.yml`.
-
-## Approach
-Instead of sending out announcements each year, a company can create a page in the site that lists:  
-
-- A brief overview of the company.
-- Geographic location of the company.
-- A list of positions that they commonly recruit for from new UH graduates. Each position has a brief description, a set of skills, whether it’s an internship, permanent position, or both, how many people they would like to hire, and salary range.
-- Links to pages for additional information.
-- Contact email(s) for followup.
-
-Students who visit the site can create a profile with their interests (skills), preferred geographic location, and link to their professional portfolio page.  
-
-Admins can monitor the site for inappropriate content, and create new categories of musical tastes, capabilities, and goals.  
 
 ## Contact Us
 Career Match was designed and implemented by:
