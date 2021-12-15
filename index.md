@@ -1,12 +1,20 @@
 ## Table of contents
 
+- [Table of contents](#table-of-contents)
 - [Overview](#overview)
 - [Deployment](#deployment)
 - [User Guide](#user-guide)
+  - [Student experience](#student-experience)
+  - [Recruiter experience](#recruiter-experience)
+  - [Admin experience](#admin-experience)
 - [Community Feedback](#community-feedback)
 - [Developer Guide](#developer-guide)
 - [Development History](#development-history)
+  - [Milestone 1: Mockup development](#milestone-1-mockup-development)
+  - [Milestone 2: Data model development](#milestone-2-data-model-development)
+  - [Milestone 3: Final development](#milestone-3-final-development)
 - [Continuous Integration](#continuous-integration)
+- [Approach](#approach)
 - [Contact Us](#contact-us)
 
 ## Overview 
@@ -27,52 +35,55 @@ The latest version of the app is hosted [here](https://career-match.connectiveun
 
 ## User Guide
 
-### Landing page
-The landing page is the first page presented to the user. Helps with vistor to understand the features of the site.
+The landing page is the first page presented to the user. If the user is not logged in, it presents the option to do so.
 
-<img src="doc/landingMockup.png">
-<img src="doc/landingMockup3.PNG">
+![](doc/screenshots/landing.png)
 
-### Student home page
-The student home page is the page presented to the user who logged in as a student. New student can add their profile by click "Create Student Profile" or edit their profile by click "Edit Profile".
+If the user does not yet have an account, they may register for a new one, where they can select from between the roles of Student or Receuiter.
 
-<img src="doc/studentlanding.png">
+![](doc/screenshots/signup.png)
 
-### Company home page
-The company home page is the page presented to the user who logged in as a recruiter. New company account can add their profile by clock "Create Company Profile" or edit their profile by click "Edit Company".
+### Student experience
 
-<img src="doc/companylanding.png">
+If the user logs in as a student or creates a student account, they are presented with the student home page.
 
-### Admin home page
-The admin home page is the page for the admin. Admin can edit student/company profile and delete student/company profile.
+![](doc/screenshots/student-home.png)
 
-<img src="doc/adminlanding.png">
+From this page they may view their student profile or find companies that fit specified criteria. The My Student Profile option allows the user to view their profile as it appears to others.
 
-### Admin edit/delete profiles
-Admin can edit and delete student/company profiles. The "edit" button only shows to admin, and admin can edit the profiles from the finding pages.
+![](doc/screenshots/censored-view-student-profile.jpg)
 
-<img src="doc/adminfind.png">
-<img src="doc/adminedit.png">
+From here, they can click the Edit Your Student Profile button to add or edit their displayed profile information.
 
+![](doc/screenshots/censored-edit-student-profile.jpg)
 
-### Student profile page
-The student profile page is a page presented to the student with their profile. Student can edit their profile by click "Edit Your Student Profile".
+On the Find Companies page, students can browse companies with profiles on the app, and select those that are looking for certain skills or are hiring in specified locations.
 
-<img src="doc/studentprofile.png">
+![](doc/screenshots/find-companies.png)
 
-### Company profile page
-The company profile page is a page presented to the recruiter with their description of company. Recruiter can edit their profile by click "Edit Your Company Profile".
+### Recruiter experience
 
-<img src="doc/companyprofile.png">
+If the user logs in as a recruiter or creates a recruiter account, they are presented with the company home page.
 
-### Browse companies and students by interests(skills)
-The page where users can search the companies/students by interests(skills).
+![](doc/screenshots/company-home.png)
 
-<img src="doc/findcompany.png">
-<img src="doc/findcompanysearch.png">
-<img src="doc/findstudent.png">
-<img src="doc/findstudentsearch.png">
+From this page they may view their company profile or find students that fit specified criteria. The My Company Profile option allows the user to view their profile as it appears to others.
 
+![](doc/screenshots/view-company-profile.png)
+
+From here, they can click the Edit Your Company Profile button to add or edit their displayed profile information.
+
+![](doc/screenshots/edit-company-profile.png)
+
+On the Find Students page, recruiters can browse students with profiles on the app, and select those that are promising certain skills or are looking for work in specified locations.
+
+![](doc/screenshots/censored-find-students.jpg)
+
+### Admin experience
+
+If the user logs in as admin, they can view and edit all student and company profiles, via the Find Companies and Find Students pages.
+
+![](doc/screenshots/admin.png)
 
 ## Community Feedback
 
