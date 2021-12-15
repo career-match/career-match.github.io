@@ -77,6 +77,7 @@ On the Find Students page, recruiters can browse students with profiles on the a
 If the user logs in as admin, they can view and edit all student and company profiles, via the Find Companies and Find Students pages.
 
 ![](doc/screenshots/admin.png)
+![](doc/screenshots/adminedit.png)
 
 ## Community Feedback
 
