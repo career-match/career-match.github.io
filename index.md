@@ -34,36 +34,44 @@ The landing page is the first page presented to the user. Helps with vistor to u
 <img src="doc/landingMockup3.PNG">
 
 ### Student home page
-The student home page is the page presented to the user who logged in as a student.
+The student home page is the page presented to the user who logged in as a student. New student can add their profile by click "Create Student Profile" or edit their profile by click "Edit Profile".
 
-<img src="doc/studenthome.png">
+<img src="doc/studentlanding.png">
 
 ### Company home page
-The company home page is the page presented to the user who logged in as a recruiter.
+The company home page is the page presented to the user who logged in as a recruiter. New company account can add their profile by clock "Create Company Profile" or edit their profile by click "Edit Company".
 
 <img src="doc/companylanding.png">
 
 ### Admin home page
-The admin home page is the page for the admin.
+The admin home page is the page for the admin. Admin can edit student/company profile and delete student/company profile.
 
-<img src="doc/CareerMatchAdminLanding.png">
+<img src="doc/adminlanding.png">
+
+### Admin edit/delete profiles
+Admin can edit and delete student/company profiles. The "edit" button only shows to admin, and admin can edit the profiles from the finding pages.
+
+<img src="doc/adminfind.png">
+<img src="doc/adminedit.png">
+
 
 ### Student profile page
-The student profile page is a page presented to the student with their profile. Student can edit their profile by click "edit".
+The student profile page is a page presented to the student with their profile. Student can edit their profile by click "Edit Your Student Profile".
 
 <img src="doc/studentprofile.png">
 
 ### Company profile page
-The company profile page is a page presented to the recruiter with their description of company. Recruiter can edit their profile by click "edit".
+The company profile page is a page presented to the recruiter with their description of company. Recruiter can edit their profile by click "Edit Your Company Profile".
 
 <img src="doc/companyprofile.png">
 
-### Browse companies and students by skill, geographic preference
-The page where users can search the companies/students by skills and geographic preference.
+### Browse companies and students by interests(skills)
+The page where users can search the companies/students by interests(skills).
 
-* wokring on the search field to browse it
 <img src="doc/findcompany.png">
+<img src="doc/findcompanysearch.png">
 <img src="doc/findstudent.png">
+<img src="doc/findstudentsearch.png">
 
 
 ## Community Feedback
