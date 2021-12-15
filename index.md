@@ -14,18 +14,11 @@
   - [Milestone 2: Data model development](#milestone-2-data-model-development)
   - [Milestone 3: Final development](#milestone-3-final-development)
 - [Continuous Integration](#continuous-integration)
-- [Approach](#approach)
 - [Contact Us](#contact-us)
 
 ## Overview 
 
-Career Match provides a new way for connecting companies with a matching system. Students can select their skills to match with companies or browse companies with zip-code to find out geographic preference. The recruiter also can explore students’ profiles with the interest and skills that the company is looking for. The site can match students to employers and vice-versa.
-
-Students who visit the site can create a profile with their interests (skills), preferred geographic location by zip-code, and link to their professional portfolio page. Admins can monitor the site for inappropriate content, and create new categories for the students and recruiters.
-New user goes to landing page, logs in, gets home page, sets up profile.
-Admin goes to landing page, logs in, gets home page, edits site.
-User goes to landing page, logs in, finds companies with compatible interests, contacts them.
-Recruiter goes to landing page, logs in, add company to Career Match, explore student’s profile.
+Career Match provides a new way for connecting companies with a matching system. Students can select their skills to match with companies or browse companies by zip-code to fit their geographic preference. Recruiters can also use the app to explore student profiles with interests and skills that the company is seeking. Students who visit the site can create a profile with their interests (skills), preferred geographic location by zip-code, and contact info. Admins can view and edit all student and company profiles. In this way the site can match students to employers and vice-versa.
 
 The Github Organization for this project can be found [here](https://github.com/career-match/)
 
@@ -142,8 +135,7 @@ Milestone 2 is managed using [GitHub Project Board M2](https://github.com/career
 
 
 ### Milestone 3: Final development
-
-Milestone 3 is currently in progress.
+The main goal of Milestone 3 is to add the remaining functionality to obtain a usable app, and finish implementing tests and updating documentation.
 
 Milestone 3 is managed using [GitHub Project Board M3](https://github.com/career-match/career-match/projects/3) 
 
@@ -153,19 +145,6 @@ Milestone 3 is managed using [GitHub Project Board M3](https://github.com/career
 Career Match uses GitHub Actions to automatically run ESLint and TestCafe each time a commit is made to the default branch. You can see the results of all recent “workflows” at [https://github.com/career-match/career-match/actions](https://github.com/career-match/career-match/actions).
 
 The workflow definition file is located at `.github/workflows/ci.yml`.
-
-## Approach
-Instead of sending out announcements each year, a company can create a page in the site that lists:  
-
-- A brief overview of the company.
-- Geographic location of the company.
-- A list of positions that they commonly recruit for from new UH graduates. Each position has a brief description, a set of skills, whether it’s an internship, permanent position, or both, how many people they would like to hire, and salary range.
-- Links to pages for additional information.
-- Contact email(s) for followup.
-
-Students who visit the site can create a profile with their interests (skills), preferred geographic location, and link to their professional portfolio page.  
-
-Admins can monitor the site for inappropriate content, and create new categories of musical tastes, capabilities, and goals.  
 
 ## Contact Us
 Career Match was designed and implemented by:
