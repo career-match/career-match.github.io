@@ -81,7 +81,7 @@ If the user logs in as admin, they can view and edit all student and company pro
 
 ## Community Feedback
 
-We have not yet received feedback from the community regarding our app.
+"Career Match is a useful website to help narrow down my options when looking to work for big corporations. It's helpful as each company is listed with programming languages they are interested in hiring so I could also know what languages to learn if I ever plan to join a company but don't know the language they desire." - Karl Penuliar, UH ICS Student.
 
 ## Developer Guide
 
