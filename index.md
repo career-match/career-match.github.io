@@ -32,7 +32,7 @@ The landing page is the first page presented to the user. If the user is not log
 
 ![](doc/screenshots/landing.png)
 
-If the user does not yet have an account, they may register for a new one, where they can select from between the roles of Student or Recruiter.
+If the user does not yet have an account, they may register for a new one, where they can select from between the roles of Student or Receuiter.
 
 ![](doc/screenshots/signup.png)
 
@@ -82,6 +82,12 @@ If the user logs in as admin, they can view and edit all student and company pro
 ## Community Feedback
 
 "Career Match is a useful website to help narrow down my options when looking to work for big corporations. It's helpful as each company is listed with programming languages they are interested in hiring so I could also know what languages to learn if I ever plan to join a company but don't know the language they desire." - Karl Penuliar, UH ICS Student.
+
+"It was very simple and easy to figure out how to use for me" - Matthew Matsuo, UH Engineering Student
+
+"The dropdowns for interests and address feel quick and snappy, as well as the find companies search." - Angelo Bongabonga, UH Math Student
+
+"Login/Sign-up looks professional. Very cool site!" - Timothy Kaneshiro, UH Bio Engineering Student
 
 ## Developer Guide
 
