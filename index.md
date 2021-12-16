@@ -32,7 +32,7 @@ The landing page is the first page presented to the user. If the user is not log
 
 ![](doc/screenshots/landing.png)
 
-If the user does not yet have an account, they may register for a new one, where they can select from between the roles of Student or Receuiter.
+If the user does not yet have an account, they may register for a new one, where they can select from between the roles of Student or Recruiter.
 
 ![](doc/screenshots/signup.png)
 
