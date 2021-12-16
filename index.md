@@ -89,6 +89,8 @@ If the user logs in as admin, they can view and edit all student and company pro
 
 "Login/Sign-up looks professional. Very cool site!" - Timothy Kaneshiro, UH Bio Engineering Student
 
+"I like the color scheme, as well as the overall organization of all the companies/students. The website looks nice." - Preston Garcia, UH ICS Student
+
 ## Developer Guide
 
 To build Career Match locally, first clone the career-match repository to your system:  
